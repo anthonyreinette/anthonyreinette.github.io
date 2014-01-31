@@ -56,6 +56,12 @@ section:nth-child(odd)
 	background: #98ADB0;
 }
 
+section .sectionContainer
+{
+	width : 50%;
+	margin : auto;
+}
+
 #presentation
 {
 	text-align: center;
@@ -212,8 +218,7 @@ section:nth-child(odd)
 
 	section
 	{
-		padding-left : 10em;
-		padding-right : 10em;
+	
 	}
 
 	h3{
