@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <nav>
+        	<ul>
+        		<li><a href="" title="">Education</a></li>
+        		<li><a href="" title="">Professional Experiences</a></li>
+        		<li><a href="" title="">Skills</a></li>
+        		<li><a href="" title="">Certifications</a></li>
+        		<li><a href="" title="">Hobbies</a></li>
+
+        	</ul>
+        </nav>
+        <div class="container">
+	        <section id="presentation"><h1>Anthony <span class="green-text">REINETTE</span></h1><img src="profile.jpg" alt=""></section>
+	        <section id="timeLine">
+	        	<h3>Timeline</h3>
+		        	<ul class="timeLineContainer">
+                        <li>
+                            <div class="TimeLineIcon"><i class="fa fa-briefcase green-text"></i></div>
+                            <div class="timeLineContent"><b class="green-text">2013</b><span>Cisco</span>
+                            <p><i>Pre-sales intern</i></p>
+                            <p>Developed a web application that automates deployment and saving of topologies of Nexus Switches.</p>
+                        </div>
+
+
+                        </li>
+                        <li>
+                            <div class="TimeLineIcon"><i class="fa fa-briefcase green-text"></i></div>
+                            <div class="timeLineContent"><b class="green-text">2013</b><span>Sprint JE</span>
+                            <p><i>Web developer</i></p>
+                            <p>Developed the back office for "La maison de l'adolescence de l'Aube"</p>
+                        </div>
+
+
+                        </li>
+                        <li>
+                            <div class="TimeLineIcon"><i class="fa fa-briefcase green-text"></i></div>
+                            <div class="timeLineContent"><b class="green-text">2012</b><span>GrDF</span>
+                            <p><i>IT Project intern</i></p>
+                            <p>Realised a collaborative web site project : establishment of specifications ...</p>
+                        </div>
+
+
+                        </li>
+                        <li>
+                            <div class="TimeLineIcon"><i class="fa fa-book green-text"></i></div>
+                            <div class="timeLineContent"><b class="green-text">2011-2014</b><span>Telecom SudParis</span>
+                            <p><i>Network Engineering</i></p>
+                        </div>
+
+
+                        </li>                                                
+
+		        	</ul>
+	        </section>
+	        <section id="skills">
+	        	<h3>Skills</h3>
+                <h4>Network Engineering</h4>
+                <canvas id="networkskills" width="300" height="300"></canvas>
+                <ul class="legend">
+                    <li><span class="skilllegend" style='background:#1abc9c;'> </span> Data Center : NX-OS, UCS, Nexus switches</li>
+                    <li><span class="skilllegend" style='background:#2C3E50;'> </span> Virtualization : VMWare ESX, V-Sphere</li>
+                    <li><span class="skilllegend" style='background:#546C7D;'> </span> Network administration : IOS</li>
+                </ul>
+                <h4>Programming</h4>
+                
+                    <canvas id="programmingskills" width="300" height="300">
+                        
+                    </canvas>
+                <ul>
+                    <li> Font-End : <span class="badge" >BackboneJS</span> <span class="badge">JQuery</span></li>
+                    <li>Back-end : <span class="badge">NodeJS</span> <span class="badge">CodeIgniter</span> <span class="badge">MySQL</span> <span class="badge">MongoDB</span>
+                </ul>
+                <h4>Langages</h4>
+                <ul>
+                    <li>French <i class="fa fa-dot-circle-o validpoint"></i> <i class="fa fa-dot-circle-o validpoint"></i> <i class="fa fa-dot-circle-o validpoint"></i> <i class="fa fa-dot-circle-o validpoint"></i> <i class="fa fa-dot-circle-o validpoint"></i></li>
+                    <li>English <i class="fa fa-dot-circle-o validpoint"></i> <i class="fa fa-dot-circle-o validpoint"></i> <i class="fa fa-dot-circle-o validpoint"></i> <i class="fa fa-dot-circle-o validpoint"></i> <i class="fa fa-dot-circle-o validpoint"></i></li>
+                    <li>Spanish <i class="fa fa-dot-circle-o validpoint"></i> <i class="fa fa-dot-circle-o validpoint"></i> <i class="fa fa-dot-circle-o invalidpoint"></i> <i class="fa fa-dot-circle-o invalidpoint"></i> <i class="fa fa-dot-circle-o invalidpoint"></i></li>
+                </ul>
+                
+                <p></p>
+	        </section> 
+	        <section id="certifications">
+	        	<h3>Certifications</h3>
+                <ul>
+                    <li>Cisco Certified Network Associate (CCNA Routing & Switching) <span class="badge">899/1000</span></li>
+                    <li>International English Language Testing System (IELTS) <span class="badge">8/10</span></li>
+                </ul>
+	        </section>
+	        <section id="hobbies">
+	        	<h3>Hobbies</h3>
+                <ul>
+                    <li>Music</li>
+                    <li>Jogging</li>
+                </ul>
+	        </section>
+	    </div>
+    </body>
+    <script type="text/javascript" src="chart.min.js"></script>
+    <script type="text/javascript">
+    var ctx1 = document.getElementById("networkskills").getContext("2d");
+    var ctx2 = document.getElementById("programmingskills").getContext("2d");
+    var data1 = [
+        {
+            value: 30,
+            color:"#1abc9c"
+        },
+        {
+            value : 40,
+            color : "#2C3E50"
+        },
+        {
+            value : 40,
+            color : "#546C7D"
+        }
+    ];
+    var data2 = {
+    labels : ["Javascript","PHP","Python","Java","C"],
+    datasets : [
+            {
+                fillColor : "rgba(26,188,156,0.5)",
+                strokeColor : "rgb(44,62,80)",
+                pointColor : "#546C7D",
+                pointStrokeColor : "#fff",
+                data : [5,4,3,2,1]
+            }
+        ]
+    }
+    var options1 = {segmentShowStroke : false};
+    var options2 = {pointDotStrokeWidth : 0.1};
+    new Chart(ctx1).Doughnut(data1,options1);
+    new Chart(ctx2).Radar(data2,options2);
+    </script>
+</html>
